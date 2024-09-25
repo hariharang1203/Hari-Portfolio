@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hari's Portfolio</title>
+
+        <!-- Link google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+         <!-- link swiper bundle -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+
+    <!-- link to css file -->
+     <link rel="stylesheet" href="style.css">
+   
+<body>      
+
+                <!-- Navbar -->
+    <header>
+        <h1 class="head-left">-FrontEnd Developer-</h1>
+
+        <nav>
+            <ul class="nav-links">
+                <a href="#" class="nav-items ">
+                    <li id="home-nav" class="active">Home</li>
+                </a>
+                <a href="#" class="nav-items">
+                    <li id="about-nav">About</li>
+                </a>
+                <a href="#" class="nav-items">
+                    <li id="skill-nav">Skills</li>
+                </a>
+                <a href="#" class="nav-items">
+                    <li id="project-nav">Projects</li>
+                </a>
+                <a href="#" class="nav-items">
+                    <li id="contact-nav">Contact</li>
+                </a>
+            </ul>
+        </nav>
+        <img src="Images\menu-icon.png" class="menu" id="menu">
+    </header>
+
+
+                <!-- Home -->
+    <div class="home-content" id="home">
+        <div class="content">
+            <h1>Hello, Welcome</h1>
+            <h2>I'm Hariharan</h2>
+            <p>Responsive design is at the core of my development process,<br> enabling websites to
+                dynamically scale and rearrange content for<br> maximum accessibility.</p>
+            <a href="Documents\Hariharan(FrontEnd Resume).pdf" download="Hari Resume" class="cv-a"><button class="cv">Downloadcv</button></a>
+        </div>
+        <div class="home-img">
+            <img src="Images\Hariharan.jpg" class="image">
+        </div>
+    </div>
+    <div class="icons-contain">
+        <a href="https://www.linkedin.com/in/hariharang121203/"><img src="Images\linkedin.svg" class="icons"></a>
+        <a href="https://github.com/hariharang1203"><img src="Images\github.svg" class="icons"></a>
+        <a href="https://www.instagram.com/_hari_ab?igsh=OWdhaXhiZnZvMHc1"><img src="Images\instagram.svg" class="icons"></a>
+    </div>
+    <div class="home-end" id="about"></div>
+
+
+                <!-- About -->
+    <div class="about-container">
+
+        <img src="Images\Hariharan.jpg" class="about-img">
+
+        <div>
+            <h1 class="about-heading">About me</h1>
+            <p class="about">Hi, I'm Hariharan, a Front-End Developer with a BSc in Computer Science and Data Analytics
+                from KPR College of Arts Science and Research (2021-2024). I’m passionate about building seamless,
+                responsive web experiences that balance creativity and technical precision. My projects include an
+                e-commerce website for smooth online shopping, a currency converter with real-time rates, and
+                QuickNotes, a note-taking app that streamlines user management.</p>
+
+            <p class="about">I use GitHub extensively to host, deploy, and test my projects across platforms, ensuring
+                optimal
+                performance and compatibility. With a keen attention to detail, I take pride in refining my work to
+                deliver intuitive, efficient user experiences. Calm and observant by nature, I enjoy exploring the
+                complexities of web development and continually strive to improve my skills and solutions.</p>
+            <a href="#"> <button class="contact">Contact me</button></a>
+        </div>
+    </div>
+    <div class="about-end" id="skills"></div>
+
+                    <!-- Skills -->
+    <div class="skills-container">
+        <h1 class="skill-head">What I do</h1>
+        <p class="skills-do">I specialize in front-end development with expertise in HTML, CSS, and JavaScript, creating
+            dynamic and
+            responsive web applications.<br> My proficiency with tools like Bootstrap and Git enhances my ability to
+            deliver
+            polished, functional designs and seamless user experiences.</p>
+        <h2 class="skill">Skills</h2>
+
+        <div class="skills-icons">
+            <div class="icons-wrapper">
+                <img src="Images\html.png" class="icons-skill">
+                <p style="padding:10px 0px;" class="name-skill">Html</p>
+            </div>
+            <div class="icons-wrapper">
+                <img src="Images\css-3 (1).png" class="icons-skill">
+                <p style="padding:10px 0px;"class="name-skill">Css</p>
+            </div>
+            <div class="icons-wrapper">
+                <img src="Images\js (1).png" class="icons-skill">
+                <p style="padding:10px"class="name-skill">Javascript</p>
+            </div>
+            <div class="icons-wrapper">
+                <img src="Images\bootstrap (1).png" class="icons-skill">
+                <p style="padding:10px 0px;"class="name-skill">Bootstrap</p>
+            </div>
+            <div class="icons-wrapper">
+                <img src="Images\git.png" class="icons-skill">
+                <p style="padding:10px 0px;"class="name-skill">Git</p>
+            </div>
+            <div class="icons-wrapper">
+                <img src="Images\github.png" class="icons-skill">
+                <p style="padding:10px 0px;"class="name-skill">Github</p>
+            </div>
+        </div>
+    </div>
+    <div class="skills-end" id="projects"></div>
+
+                    <!-- Projects -->
+                    <div class="project-container">
+                        <h1 class="prj-title">My Projects</h1>
+                        <p class="prj-about">A showcase of projects highlighting my expertise in front-end development, focusing on responsive design,<br> user experience, and functionality across various platforms.</p>
+                         <div class="prj-wrapper swiper">  <!--  swiper used -->
+                            <div class="swiper-wrapper">
+                                <div class="project swiper-slide">
+                                    <img src="Project-Images\currecncy-prj.png" class="prj-img" alt="Currency Converter Project">
+                                    <p class="prj-content">The currency converter enables seamless, real-time currency conversions using an API, built with HTML, CSS, and JavaScript, offering a responsive and intuitive user experience across devices.</p>
+                                    <a href="https://hariharang1203.github.io/CurrencyConverter/"><button class="prj-button">View site</button></a>
+                                </div>
+                                <div class="project swiper-slide">
+                                    <img src="Project-Images\notes-prj.png" class="prj-img" alt="Notes App Project">
+                                    <p class="prj-content">QuickNotes is a simple, responsive note-taking app that allows users to add, update, and delete notes efficiently using local storage, built with HTML, CSS, and JavaScript.</p><br>
+                                    <a href="https://hariharang1203.github.io/Notes-App/"><button class="prj-button">View site</button></a>
+                                </div>
+                                <div class="project swiper-slide">
+                                    <img src="Project-Images\tic tac toe.png" class="prj-img">
+                                    <p class="prj-content">Developed a responsive Tic Tac Toe game with dynamic scoreboard, win/draw alerts,
+                                        and smooth animations using HTML, CSS, and JavaScript.</p><br>
+                                    <a href="https://hariharang1203.github.io/tic-tac-toe/"><button class="prj-button">View
+                                            site</button></a>
+                                </div>
+                                <div class="project swiper-slide">
+                                    <img src="Project-Images\calculator-prj.png" class="prj-img" alt="Calculator Project">
+                                    <p class="prj-content">The calculator project is a responsive web application built with HTML, CSS, and JavaScript, offering basic arithmetic functions with a clean and intuitive interface.</p><br>
+                                    <a href="https://hariharang1203.github.io/calculator-js/"><button class="prj-button">View site</button></a>
+                                </div>
+                                <div class="project swiper-slide">
+                                    <img src="Project-Images\countdown-prj.png" class="prj-img">
+                                    <p class="prj-content">The New Year countdown timer is a responsive web application built with HTML,
+                                        CSS, and JavaScript, dynamically displaying the time left until the upcoming New Year with a
+                                        real-time countdown.</p>
+                                    <a href=""><button class="prj-button">View site</button></a>
+                                </div>
+                                <div class="project swiper-slide">
+                                    <img src="Project-Images\analog-prj.png" class="prj-img">
+                                    <p class="prj-content">The analog clock is a web-based application built using HTML, CSS, and
+                                        JavaScript, featuring a real-time, visually appealing clock with moving hour, minute, and second
+                                        hands.</p>
+                                    <a href="https://hariharang1203.github.io/Analog-Clock/"><button class="prj-button">View
+                                            site</button></a>
+                                </div>
+                                
+                            </div>
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-arrow swiper-button-prev"></div>             <!--Swiper Arrows -->
+                            <div class="swiper-arrow swiper-button-next"></div>
+                        </div>
+                    </div>
+                    <div class="prj-end" id="contact"></div>
+
+                <!-- Contact-form -->
+    <div class="contact-container">
+        <div class="contact-form">
+            <div>
+                <h1 class="contact-title">Contact me</h1>
+                <form action="https://api.web3forms.com/submit" method="POST" id="form">     <!--api connect for submission -->
+                    <input type="hidden" name="access_key" value="4af54c36-8e0c-4b48-978b-49e73247598a">
+                    <label>Name</label>
+                    <input type="text" name="name" placeholder="Your Name" required class="contact-inputs">
+                    <label>E-Mail</label>
+                    <input type="email" name="email" placeholder="Your E-mail" required class="contact-inputs">
+                    <label>Message</label>
+                    <textarea placeholder="Message" name="message" required
+                        class="contact-inputs message"></textarea><br><br>
+                    <input type="checkbox" name="botcheck" class="hidden" style="display:none;">
+                    <button type="submit" class="submit">Submit</button>
+
+                </form>
+                <div id="result"></div>
+            </div>
+        </div>
+    </div>
+
+            <!-- Footer-End -->
+    <div class="contact-end">
+        <div>
+            <h1 class="head-left">-Portfolio-</h1>
+        </div>
+        <div class="social-contact">
+            <p>Contact me in social media also.</p>
+            <div class="icon-wrap" id="contact-info">
+                <a href="https://github.com/hariharang1203"><img src="Images\github.svg
+                    " class="footer-icons"></a>
+                <a href="https://www.linkedin.com/in/hariharang121203/"><img src="Images\linkedin.svg"
+                        class="footer-icons"></a>
+                <a href="https://www.instagram.com/_hari_ab?igsh=OWdhaXhiZnZvMHc1"><img src="Images\instagram.svg"
+                        class="footer-icons"></a>
+                <a href="https://x.com/HariHaran7219?t=VyM8ANUTizh9WUIKI-X-mA&s=08 "><img src="Images\twitter.svg"
+                        class="footer-icons"></a>
+            </div>
+
+        </div>
+        <div>
+            <h5 class="mail"> <a href="mailto:hariharang1203@gmail.com"><img src="Images\message.svg"
+                        class="contact-icons">hariharang1203@gmail.com</a></h5>
+            <p> <a href="tel:+917708080910"><img src="Images\phone.svg" class="contact-icons">7708080910 </a></p>
+
+        </div>
+
+    </div>
+             <!--Swiper Script Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+        <!-- Link to JS file -->
+    <script src="script.js"></script>
+</body>
+
+</html>
